@@ -18,7 +18,9 @@ A simple web application that validates email addresses in real-time using HTML,
 email-validation/
 │
 ├── index.html # Main HTML page
+
 ├── style.css # CSS for styling
+
 └── script.js # JavaScript for validation
 
 r
