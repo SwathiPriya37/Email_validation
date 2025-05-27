@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Email_validation</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    
 </head>
 <body>
     <div class="hero">
         <div class="input-group">
             <label id="email-label">EMAIL</label>
-            <input type="email" spellcheck="false" id="email-field">
-            <span id="email error">error msg</span>
+            <input type="email" spellcheck="false" id="email-field" onkeyup="validateEmail()">
+            <span id="email-error"></span>
         </div>
     </div>
+    <script src="script.js" ></script>
 </body>
 </html>
